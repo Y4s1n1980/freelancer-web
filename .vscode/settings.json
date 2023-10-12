@@ -1,50 +1,12 @@
 {
     "cSpell.words": [
-        "-webkit-appearance",
-        "adipisci",
-        "Aplicaciones",
         "blanco",
-        "Blanes",
-        "Clientes",
-        "colorr",
-        "Contactar",
-        "Contacto",
-        "Correo",
-        "derechos",
-        "Desarrollo",
-        "Desiño",
-        "Diseño",
-        "earum",
-        "Enviar",
-        "Frelancer",
-        "Giorna",
-        "incidunt",
-        "Inicio",
+        "contenedor",
         "Krub",
-        "Mensaje",
-        "Nombre",
-        "odio",
-        "ordenador",
+        "navigacion",
         "oscuro",
-        "possimus",
         "primario",
-        "reservados",
-        "Servicios",
-        "Sobre",
-        "Telefono",
-        "titulo",
-        "Todos",
-        "voluptatum"
-    ],
-    "cSpell.ignoreWords": [
-        "blanditiis"
-    ],
-    "cSpell.customDictionaries": {
-        "custom-dictionary-workspace": {
-            "name": "custom-dictionary-workspace",
-            "path": "${workspaceFolder:freelancer web }/.cspell/custom-dictionary-workspace.txt",
-            "addWords": true,
-            "scope": "workspace"
-        }
-    }
+        "secundario",
+        "titulo"
+    ]
 }

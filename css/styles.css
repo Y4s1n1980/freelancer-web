@@ -25,7 +25,6 @@ body{
 
 .titulo span{
     font-size:2rem ;
-    color: blue;
 }
 
 .contenedor{
@@ -33,6 +32,24 @@ body{
     margin: 0 auto;
 }
 
+.nav-bg{
+     background-color: var(--secundario);
+}
+
 .principal-navigacion{
-    background-color: var(--secundario);
+    display: flex;
+    justify-content: space-between;
+}
+
+.principal-navigacion a{
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight:700 ;
+    padding: 1rem;
+}
+
+.principal-navigacion a:hoover{
+    background-color: var(--primario);
+    color: var(--oscuro);
 }
