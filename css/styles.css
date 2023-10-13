@@ -9,6 +9,11 @@
 
 html{
     font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 body{
@@ -28,7 +33,7 @@ body{
 }
 
 .contenedor{
-    width: 120rem;
+    max-width: 120rem;
     margin: 0 auto;
 }
 
@@ -38,7 +43,17 @@ body{
 
 .principal-navigacion{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+
+.principal-navigacion{
+    flex-direction: row;
     justify-content: space-between;
+}
+    
 }
 
 .principal-navigacion a{
@@ -49,7 +64,16 @@ body{
     padding: 1rem;
 }
 
-.principal-navigacion a:hoover{
+.principal-navigacion a:hover{
     background-color: var(--primario);
     color: var(--oscuro);
+}
+
+
+.hero{
+    background-image: url(../img/prueba.jpg);
+    background-repeat: none;
+    background-size: cover;
+    height: 450px;
+    padding: 20px;
 }
