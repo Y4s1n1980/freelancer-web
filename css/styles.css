@@ -12,7 +12,17 @@
 
 html {
     font-size: 62.5%;
-    box-sizing: border-box;
+    box-sizing: border-box; /*Hack para Box Model*/
+    scroll-snap-type: y mandatory; /*scroll de arriba abajo si quieres derecha izquierda pon X*/
+}
+
+/* Scroll Snap*/
+
+.servicios,
+.principal-navigacion,
+.formulario{
+    scroll-snap-align: center ;
+    scroll-snap-stop: always;
 }
 
 *,
@@ -223,8 +233,7 @@ h3 {
 
 .formulario {
     background-color: var(--gris);
-    width: min(60rem, 100%);
-    /*esto utiliza el valor mas pequeño*/
+    width: min(60rem, 100%); /*esto utiliza el valor mas pequeño*/
     margin: 0 auto;
     padding: 2rem;
     border-radius: 1rem;
@@ -255,11 +264,9 @@ h3 {
 
     .campo:nth-child(3),
     .campo:nth-child(4) {
-        grid-column: 1/3;
+        grid-column: 1 / 3;
     }
 }
-
-
 
 .campo {
     margin-bottom: 1rem;
@@ -274,7 +281,6 @@ h3 {
 
 .campo textarea{
     height: 20rem;
-    resize: none;
 }
 
 .input-text {
