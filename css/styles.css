@@ -233,7 +233,7 @@ h3 {
 
 .formulario {
     background-color: var(--gris);
-    width: min(60rem, 100%); /*esto utiliza el valor mas pequeño*/
+    width: min(60rem, 100%);
     margin: 0 auto;
     padding: 2rem;
     border-radius: 1rem;
@@ -263,7 +263,7 @@ h3 {
     }
 
     .campo:nth-child(3),
-    .campo:nth-child(4) {
+    .campo:nth-child(4){
         grid-column: 1 / 3;
     }
 }
@@ -279,9 +279,12 @@ h3 {
     display: block;
 }
 
+
 .campo textarea{
-    height: 20rem;
+    height: 15rem;
+    resize: vertical;
 }
+
 
 .input-text {
     width: 100%;
